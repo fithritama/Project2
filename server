@@ -1,0 +1,3 @@
+read V3
+TZ="$V3" date
+

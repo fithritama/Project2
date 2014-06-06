@@ -1,0 +1,13 @@
+# default: on
+# description: The server
+service server
+{
+flags = REUSE
+socket_type = stream
+wait = no
+user = nobody
+server = /usr/local/bin/server
+disable = no
+}
+
+
