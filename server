@@ -1,3 +1,4 @@
+#!/bin/bash
 read V3
 TZ="$V3" date
 
