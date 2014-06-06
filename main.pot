@@ -16,46 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: main:3
-msgid "HOST=localhost"
-msgstr ""
-
-#: main:4
-msgid "PORT=4321"
-msgstr ""
-
-#: main:6 main:7 main:12
-msgid "zenity"
-msgstr ""
-
-#: main:6 main:7
-msgid "--entry"
-msgstr ""
-
-#: main:6 main:7
-msgid "--entry-text"
-msgstr ""
-
-#: main:6 main:7
-msgid "Ty"
-msgstr ""
-
-#: main:6 main:7
-msgid "--text"
-msgstr ""
-
-#: main:6 main:7
-msgid "gettext"
-msgstr ""
-
-#: main:6 main:7
-msgid "-d"
-msgstr ""
-
-#: main:6 main:7
-msgid "main"
-msgstr ""
-
 #: main:6
 msgid "Enter Continent"
 msgstr ""
@@ -64,14 +24,4 @@ msgstr ""
 msgid "Enter Region"
 msgstr ""
 
-#: main:11
-msgid "echo"
-msgstr ""
 
-#: main:11
-msgid "nc"
-msgstr ""
-
-#: main:12
-msgid "--info"
-msgstr ""
