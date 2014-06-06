@@ -5,6 +5,7 @@ install:
 	which nc >/dev/null 2>&1 || yum -y install nc
 	grep -q "`cat main.services`" /etc/services || cat main.services >> /etc/services
 	install main.xinetd /etc/xinetd.d/main
+	install main-id.mo /usr/share/locale/id/LC_MESSAGES/main.mo
 	/etc/init.d/xinetd restart
 
 main.pot:
