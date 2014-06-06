@@ -8,7 +8,7 @@ V2=$(zenity --entry --entry-text "Region" --text `gettext -d main "Enter Region"
 V3="$V1/$V2"
 echo $V3|nc $HOST $PORT
 #export TZ="$Variable1"/"$Variable2"
-#D=$(echo $V3|nc $HOST $PORT)
-D=$(date)
+D=$(echo $V3|nc $HOST $PORT)
+#D=$(date)
 zenity --info --text="$D"
 
