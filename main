@@ -1,2 +1,13 @@
 #!/bin/sh
-#bla bla bla
+
+HOST=localhost
+PORT=4321
+
+V1=$(zenity --entry --entry-text "Ty" --text `gettext -d main "Enter Continent"`)
+V2=$(zenity --entry --entry-text "Ty" --text `gettext -d main "Enter Region"`)
+V3="$V1/$V2"
+#echo $V3|nc $HOST $PORT
+#export TZ="$Variable1"/"$Variable2"
+D=$(echo $V3|nc $HOST $PORT)
+zenity --info --text="$D"
+
